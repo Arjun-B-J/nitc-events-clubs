@@ -10,7 +10,7 @@
       <p><a href="#">Link</a></p>
     </div>
   <div class="home container-fluid col-lg-8 text-left" >
-    <div class= "row row-cols-3">
+    <div class= "row row-cols-4">
    <b-card v-for="club in clubs" :key="club"
     :title="club"
     img-src="https://picsum.photos/600/300/?image=25"
@@ -29,6 +29,14 @@
     </div>
   
   </div>
+   <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
   </div>
   </div>
 </template>
@@ -48,7 +56,7 @@ export default {
   data()
   {
     return {
-      clubs : ['club 1','club 2','club 3','club 4','club 2','club 4']
+      clubs : ['MUSIC','club 2','club 3','club 4','club 2','club 4','club-7','club-8','club-9']
     }
   },
 
