@@ -3,8 +3,13 @@
 
 <template>
   <div class = "container-fluid text-center">
-
-  <div class="home container-fluid" >
+   <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+  <div class="home container-fluid col-lg-8 text-left" >
     <div class= "row row-cols-3">
    <b-card v-for="club in clubs" :key="club"
     :title="club"
@@ -23,7 +28,7 @@
   </b-card>
     </div>
   
-
+  </div>
   </div>
   </div>
 </template>
