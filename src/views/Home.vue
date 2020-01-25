@@ -3,29 +3,30 @@
 
 <template>
   <div class = "container-fluid text-center">
-   <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-    </div>
-  <div class="home container-fluid col-lg-8 text-left" >
-    <div class= "row row-cols-4">
-   <b-card v-for="club in clubs" :key="club"
-    :title="club"
-    img-src="https://picsum.photos/600/300/?image=25"
-    img-alt="Image"
-    img-top
-    tag="article"
-    style="max-width: 20rem;"
-    class="mb-2 col"
-  >
-    <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
-    </b-card-text>
+    <div class="row content">
+      <div class="col-sm-2 sidenav">
+        <p><a href="#">Link</a></p>
+        <p><a href="#">Link</a></p>
+        <p><a href="#">Link</a></p>
+      </div>
 
-    <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card>
+
+    <div class="home container-fluid col-lg-8 text-left" >
+      <div class= "row row-cols-4">
+        <b-card v-for="club in clubs" :key="club"
+          :title="club"
+          img-src="https://picsum.photos/600/300/?image=25"
+          img-alt="Image"
+          img-top
+          tag="article"
+          style="max-width: 20rem;"
+          class="mb-2 col"
+        >
+          <b-card-text>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+          <b-button href="#" variant="primary">Go somewhere</b-button>
+        </b-card>
     </div>
   
   </div>
