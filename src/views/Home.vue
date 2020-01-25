@@ -20,7 +20,7 @@
           img-top
           tag="article"
           style="max-width: 20rem;"
-          class="mb-2 col"
+          class="mb-2 col event-card"
         >
           <b-card-text>
           Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -44,6 +44,10 @@
 <style scoped>
 body{
 background-image: linear-gradient(to bottom, #051937, #171228, #190a1a, #12040d, #000000);
+}
+.event-card {
+  margin: 10px;
+  padding: 1rem;
 }
 </style>
 

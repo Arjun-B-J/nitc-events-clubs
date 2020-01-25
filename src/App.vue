@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  <b-navbar toggleable="lg" type="dark" variant="info">
+  <b-navbar toggleable="lg" type="dark" variant="dark">
     <b-navbar-brand href="#">NITC-Events</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -39,4 +39,7 @@
     <router-view/>
   </div>
 </template>
+<style scoped>
+  
+</style>>
 
